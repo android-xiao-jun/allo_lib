@@ -1,0 +1,39 @@
+//pluginManagement {
+//    repositories {
+//        mavenLocal()
+//        gradlePluginPortal()
+//        mavenCentral()
+//        maven { url 'https://www.jitpack.io' }
+//        google()
+//        maven {
+//            setUrl("repo")
+//        }
+//    }
+//}
+//dependencyResolutionManagement {
+//    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+//    repositories {
+//        mavenLocal()
+//        mavenCentral()
+//        maven { url 'https://www.jitpack.io' }
+//        google()
+//        maven {
+//            setUrl("repo")
+//        }
+//    }
+//}
+
+//include ':app'
+//include ':glide-anim'
+include ':utils'
+include ':ucrop'
+include ':search'
+include ':barmak-asrsdk'
+include ':database'
+include ':ffmpeg'
+include ':musicPlayer'
+include ':physicslayout'
+include ':panel-androidx'
+include ':Library:logwritelibrary'
+include ':Library:SudMGPWrapper'
+//include ':flowcamera'

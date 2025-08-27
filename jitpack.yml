@@ -1,0 +1,18 @@
+jdk:
+  - openjdk11
+
+before_install:
+  - ./gradlew clean
+
+install:
+  - ./gradlew :utils:publishToMavenLocal
+  - ./gradlew :ucrop:publishToMavenLocal
+  - ./gradlew :search:publishToMavenLocal
+  - ./gradlew :barmak-asrsdk:publishToMavenLocal
+  - ./gradlew :database:publishToMavenLocal
+  - ./gradlew :ffmpeg:publishToMavenLocal
+  - ./gradlew :Library:logwritelibrary:publishToMavenLocal
+  - ./gradlew :Library:SudMGPWrapper:publishToMavenLocal
+  - ./gradlew :musicPlayer:publishToMavenLocal
+  - ./gradlew :panel-androidx:publishToMavenLocal
+  - ./gradlew :physicslayout:publishToMavenLocal
